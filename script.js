@@ -145,7 +145,7 @@ function renderCities() {
                     var pTemperatureK = response5day.list[i].main.temp;
                     console.log(skyconditions);
                     var TempetureToNum = parseInt((pTemperatureK)* 9/5 - 459);
-                    var pTemperature = $("<p>").text("Tempeture: "+ TempetureToNum + " °F");
+                    var pTemperature = $("<p>").text("Temperature: "+ TempetureToNum + " °F");
                     var pHumidity = $("<p>").text("Humidity: "+ response5day.list[i].main.humidity + " %");
                     FivedayDiv.append(Fivedayh4);
                     FivedayDiv.append(imgtag);
